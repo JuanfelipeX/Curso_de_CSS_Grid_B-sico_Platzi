@@ -1,0 +1,16 @@
+    .contenedor {
+        border: 5px solid #e1bee7;
+        background-color: #fff1ff;
+        display: grid;
+        grid-template-columns: [perro dog] 50px [gato] 100px [raton] 200px;
+        /* grid-template-columns LE DECIMOS LA CANTIDAD DE COLUMNAS QUE VA A TENER Y TAMANIO*/
+        grid-template-rows: 400px 50px;
+        grid-gap: 15px;
+        grid-auto-flow: column;
+        grid-row: 15px;
+    }
+    
+    .item {
+        border: 5px solid #00bcd4;
+        font-size: 2rem;
+    }
